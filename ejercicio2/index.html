@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra stickers</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+<h1>¡Compra tus stickers favoritos!</h1>
+<br>
+<h3>Recuerda que solo puedes llevar <span>máximo 10</span></h3>
+<br>
+<div class="shop">
+    <div class="st">
+        <img class="sticker" src="./assets/img/736cdcb23bacf965b73bbe7b913d5a2a.png" alt="">
+        <input type="number" id="sticker1" min="0" max="10" placeholder="0">
+    </div>
+    <div class="st">
+        <img class="sticker" src="./assets/img/previews.png" alt="">
+        <input type="number" id="sticker2" min="0" max="10" placeholder="0">
+    </div>
+    <div class="st">
+        <img class="sticker" src="./assets/img/star-wars-darkside-made-do-512x512.png" alt="">
+        <input type="number" id="sticker3" min="0" max="10" placeholder="0">
+    </div>
+</div>
+<br>
+<button onclick="calcularTotal()">Comprar</button>
+<br>
+<p id="resultado"></p>
+
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
